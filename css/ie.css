@@ -1,0 +1,22 @@
+img{
+    border: 0;
+}
+.showpanel{
+    background-position: center top;
+
+    behavior: url(path/to/pie_files/PIE.htc);
+}
+.header{
+    display: table;
+    
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=100, Strength=13);
+}
+.header__logo{
+    display: table-cell;
+}
+.header__menu{
+    display: table-cell;
+}
+.menu__item{
+    display: inline-block;
+}

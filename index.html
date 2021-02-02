@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Brunch</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="showpanel container__showpanel container__fixed container__fixed_left-padding">
+                <header class="header showpanel__header container__flex">
+                    <div class="logo header__logo">
+                        <a href="#" class="logo__link"><span class="logo__text">Brunch</span></a>
+                    </div>
+                    <div class="sandwich header__sandwich">
+                        <input type="checkbox" class="sandwich__checkbox" id="menu1">
+                        <div class="sandwich-box sandwich__sandwich-box">
+                            <div class="sandwich-box__line"></div>	
+                        </div>
+                        <label for="menu1" class="sandwich__label">
+                            <ul class="menu sandwich__menu container__flex">
+                                <li class="menu__item"><a href="#about" class="menu__link menu__link_active">welcome</a></li>
+                                <li class="menu__item"><a href="#dish-menu" class="menu__link">menu</a></li>
+                                <li class="menu__item"><a href="#gallery-block" class="menu__link">events</a></li>
+                                <li class="menu__item"><a href="#contact-block" class="menu__link">contact</a></li>
+                            </ul>
+                        </label>
+                    </div>
+                </header>
+                <div class="info-block showpanel__info-block">
+                    <div class="info info-block__info">
+                        <div class="title-group info__title-group">
+                            <h1 class="title title-group__title title-group__title_main">Brunch
+                            <span class="subtitle title-group__subtitle title-group__subtitle_main">Full website</span></h1>
+                            <a href="#about" class="title-group__read-more">read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="about-block container__about" id="about">
+                <article class="about-section about-block__about-section container__fixed container__flex">
+                    <div class="about-text about__about-text">
+                        <h2 class="about-text__heading">Indian traditional flavours</h2>
+                        <p class="about-text__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                    </div>
+                    <div class="about-img about__about-img">
+                        <img src="images/about/1.jpg" alt="" class="about-img__photo">
+                    </div>
+                </article>
+            </section>
+            <section class="features-block container__features container__fixed container__fixed_left-padding">
+                <div class="features features-block__features container__flex">
+                    <div class="feature features__feature">
+                        <div class="circles feature__circles">
+                            <div class="circle circles__circle"></div>
+                        </div>
+                        <h4 class="feature__heading">New tastes</h4>
+                        <p class="feature__text">Lorem ipsum dolor sit amet, consecte sectetur adipisicing elit, tation omne ullamco laboris nisi ut aliqolore.</p>
+                    </div>
+                    <div class="feature features__feature">
+                        <div class="circles feature__circles">
+                            <div class="circle circles__circle"></div>
+                            <div class="circle circles__circle"></div>
+                        </div>      
+                        <h4 class="feature__heading">New spices</h4> 
+                        <p class="feature__text">Lorem ipsum dolor sit amet, consecte sectetur adipisicing elit, tation omne ullamco laboris nisi ut aliqolore.</p>
+                    </div>
+                    <div class="feature features__feature">
+                        <div class="circles feature__circles">
+                            <div class="circle circles__circle"></div>
+                            <div class="circle circles__circle"></div>
+                            <div class="circle circles__circle"></div>
+                        </div>
+                        <h4 class="feature__heading">New dishes</h4>
+                        <p class="feature__text">Lorem ipsum dolor sit amet, consecte sectetur adipisicing elit, tation omne ullamco laboris nisi ut aliqolore.</p>
+                    </div>
+                </div>
+            </section>
+            <div class="dish-menu-block container__dish-menu-block container__fixed container__fixed_left-padding" id="dish-menu">
+                <div class="dish-menu dish-menu-block__dish-menu">
+                    <div class="title-block dish-menu__title-block">
+                        <h2 class="title title-block__title">India
+                        <span class="subtitle title-block__subtitle">on your plate</span></h2>
+                    </div>
+                    <div class="dishes dish-menu__dishes container__flex">
+                        <div class="dish-section dishes__dish-section container__flex">
+                            <div class="dish-img dish-section__dish-img">
+                                <img src="./images/dish-menu/1.jpg" alt="" class="dish-img__image">
+                            </div>
+                            <div class="dish-info dish-section__dish-info">
+                                <div class="dish dish-info__dish">
+                                    <h3 class="dish__name">Tikka chicken</h3>
+                                    <div class="dish__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do</div>
+                                    <span class="dish__price">$14.95</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dish-section dishes__dish-section container__flex">
+                            <div class="dish-img dish-section__dish-img">
+                                <img src="./images/dish-menu/2.jpg" alt="" class="dish-img__image">
+                            </div>
+                            <div class="dish-info dish-section__dish-info">
+                                <div class="dish dish-info__dish">
+                                    <h3 class="dish__name">Spicy Wedges</h3>
+                                    <div class="dish__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do</div>
+                                    <span class="dish__price">$10.95</span>
+                                </div>
+                            </div>    
+                        </div>
+                        <div class="dish-section dishes__dish-section container__flex">
+                            <div class="dish-img dish-section__dish-img">
+                                <img src="./images/dish-menu/3.jpg" alt="" class="dish-img__image">
+                            </div>
+                            <div class="dish-info dish-section__dish-info">
+                                <div class="dish dish-info__dish">
+                                    <h3 class="dish__name">Chicken curry</h3>
+                                    <div class="dish__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do</div>
+                                    <span class="dish__price">$14.95</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dish-section dishes__dish-section container__flex">
+                            <div class="dish-img dish-section__dish-img">
+                                <img src="./images/dish-menu/4.jpg" alt="" class="dish-img__image">
+                            </div>
+                            <div class="dish-info dish-section__dish-info">
+                                <div class="dish dish-info__dish">
+                                    <h3 class="dish__name">Red curry</h3>
+                                    <div class="dish__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do</div>
+                                    <span class="dish__price">$18.95</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dish-section dishes__dish-section container__flex">
+                            <div class="dish-img dish-section__dish-img">
+                                <img src="./images/dish-menu/5.jpg" alt="" class="dish-img__image">
+                            </div>
+                            <div class="dish-info dish-section__dish-info">
+                                <div class="dish dish-info__dish">
+                                    <h3 class="dish__name">SPICY VEGGIES</h3>
+                                    <div class="dish__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do</div>
+                                    <span class="dish__price">$11.95</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dish-section dishes__dish-section container__flex">
+                            <div class="dish-img dish-section__dish-img">
+                                <img src="./images/dish-menu/6.jpg" alt="" class="dish-img__image">
+                            </div>
+                            <div class="dish-info dish-section__dish-info">
+                                <div class="dish dish-info__dish">
+                                    <h3 class="dish__name">SPICY MIX</h3>
+                                    <div class="dish__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do</div>
+                                    <span class="dish__price">$11.95</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-block container__fixed container__fixed_left-padding" id="nav-block">
+                <div class="nav nav-block__nav container__flex_vertical">
+                    <div class="slider nav__slider" id="slider">
+                        <ul class="slides slider__slides">
+                            <li class="slide slides__slide">
+                                <div class="slide-text slide__slide-text">
+                                    <h3 class="slide-heading">Traditional cuisine made easy</h3>
+                                    <p class="slide-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+                                </div>
+                            </li>
+                            <li class="slide slides__slide slides__slide_display-none">
+                                <div class="slide-text slide__slide-text">
+                                    <h3 class="slide-heading">Most Popular Indian Dishes</h3>
+                                    <p class="slide-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+                                </div>
+                            </li>
+                            <li class="slide slides__slide slides__slide_display-none">
+                                <div class="slide-text slide__slide-text">
+                                    <h3 class="slide-heading">Is Indian Food Healthy?</h3>
+                                    <p class="slide-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="navigation slider__navigation">
+                            <div class="nav-circles navigation__nav-circles container__flex">
+                                <div class="circle nav-circles__circle nav-circles__circle_current" data-btn-num="1"></div>
+                                <div class="circle nav-circles__circle" data-btn-num="2"></div>
+                                <div class="circle nav-circles__circle" data-btn-num="3"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="navbar nav__navbar container__flex" id="navbar">
+                        <li class="navbar__item"><a href="#dish-menu" class="navbar__link navbar__link_active">Meals</a></li>
+                        <li class="navbar__item"><a href="#spices" class="navbar__link">Spices</a></li>
+                        <li class="navbar__item"><a href="#book-block" class="navbar__link">Book</a></li>
+                        <li class="navbar__item"><a href="#gallery-block" class="navbar__link">Gallery</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="new-menu-block container__new-menu-block">
+                <div class="new-menu new-menu-block__new-menu container__flex_vertical container__fixed">
+                    <div class="title-block new-menu__title-block">
+                        <h2 class="title title-block__title">Discover
+                        <span class="subtitle title-block__subtitle">our new menu</span></h2>
+                    </div>
+                    <div class="new-positions new-menu__new-positions container__flex">
+                        <div class="position-group new-positions__position-group container__flex">
+                            <div class="icon-block position-group__icon-block">
+                                <div class="icon icon-block__icon">
+                                    <img src="./images/new-menu/new_position_icons/1.png" alt="" class="icon__pic">
+                                </div>
+                            </div>
+                            <div class="position position-group__position">
+                                <h3 class="dish__name dish__name_new-menu">Tikka chicken</h3>
+                                <p class="dish__desc dish__desc_new-menu">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do oculis<span class="dish__price">$14.95</span></p>
+                            </div>
+                        </div>
+                        <div class="position-group new-positions__position-group container__flex">
+                            <div class="icon-block position-group__icon-block">
+                                <div class="icon icon-block__icon">
+                                    <img src="./images/new-menu/new_position_icons/2.png" alt="" class="icon__pic">
+                                </div>
+                            </div>
+                            <div class="position position-group__position">
+                                <h3 class="dish__name dish__name_new-menu">Soup of the day</h3>
+                                <p class="dish__desc dish__desc_new-menu">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do oculis<span class="dish__price">$7.95</span></p>
+                            </div>
+                        </div>
+                        <div class="position-group new-positions__position-group container__flex">
+                            <div class="icon-block position-group__icon-block">
+                                <div class="icon icon-block__icon">
+                                    <img src="./images/new-menu/new_position_icons/3.png" alt="" class="icon__pic">
+                                </div>
+                            </div>
+                            <div class="position position-group__position">
+                                <h3 class="dish__name dish__name_new-menu">Plain papadums</h3>
+                                <p class="dish__desc dish__desc_new-menu">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do oculis<span class="dish__price">$1.95</span></p>
+                            </div>
+                        </div>
+                        <div class="position-group new-positions__position-group container__flex">
+                            <div class="icon-block position-group__icon-block">
+                                <div class="icon icon-block__icon">
+                                    <img src="./images/new-menu/new_position_icons/4.png" alt="" class="icon__pic">
+                                </div>
+                            </div>
+                            <div class="position position-group__position">
+                                <h3 class="dish__name dish__name_new-menu">Yellow curry</h3>
+                                <p class="dish__desc dish__desc_new-menu">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do oculis<span class="dish__price">$15.95</span></p>
+                            </div>
+                        </div>
+                        <div class="position-group new-positions__position-group container__flex">
+                            <div class="icon-block position-group__icon-block">
+                                <div class="icon icon-block__icon">
+                                    <img src="./images/new-menu/new_position_icons/5.png" alt="" class="icon__pic">
+                                </div>
+                            </div>
+                            <div class="position position-group__position">
+                                <h3 class="dish__name dish__name_new-menu">Chicken curry</h3>
+                                <p class="dish__desc dish__desc_new-menu">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do oculis<span class="dish__price">$12.95</span></p>
+                            </div>
+                        </div>
+                        <div class="position-group new-positions__position-group container__flex">
+                            <div class="icon-block position-group__icon-block">
+                                <div class="icon icon-block__icon">
+                                    <img src="./images/new-menu/new_position_icons/6.png" alt="" class="icon__pic">
+                                </div>
+                            </div>
+                            <div class="position position-group__position">
+                                <h3 class="dish__name dish__name_new-menu">Spicy meatballs</h3>
+                                <p class="dish__desc dish__desc_new-menu">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do oculis<span class="dish__price">$18.95</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="book-block container__book-block" id="book-block">
+                <div class="booking-img book-block__booking-img">
+                    <img src="./images/booking/bg.jpg" alt="" class="booking-img__image">
+                </div>
+                <div class="book book-block__book container__fixed">
+                    <h2 class="title title-block__title title-block__title_white">Book here</h2>
+                    <form class="booking-form book__booking-form container__flex" id="booking-form" method="POST" novalidate>
+                        <div class="qty-name-details booking-form__qty-name-details container__flex_vertical">
+                            <div class="field">
+                                <label for="qty">How many people?</label><br>
+                                <select class="form-field qty-name-details__form-field_qty" id="qty">
+                                    <option selected hidden>2 people</option>
+                                    <option value="1" class="">1 people</option>
+                                    <option value="2" class="">2 people</option>
+                                    <option value="3" class="">3 people</option>
+                                    <option value="4" class="">4 people</option>
+                                    <option value="5" class="">5 people</option>
+                                    <option value="6" class="">6 people</option>
+                                    <option value="7" class="">7 and more</option>
+                                </select>
+                            </div>
+                            <div class="field">
+                                <label for="name">Name</label><br>
+                                <input type="name" name="name" id="name" placeholder="Full name" class="form-field qty-name-details__form-field_name" required>
+                            </div>
+                        </div>
+                        <div class="details booking-form__details container__flex">
+                            <div class="field">
+                                <label for="datapicker">When is your date?</label><br>
+                                <input type="date" name="date" id="datepicker" value="2021-01-21" class="form-field details__form-field details__form-field_date" required>
+                            </div>
+                            <div class="field">
+                                <label for="time">Time</label><br>
+                                <input type="time" name="time" id="time" value="10:00" class="form-field details__form-field details__form-field_time" required>
+                            </div>
+                            <div class="field">
+                                <label for="email">Email</label><br>
+                                <input type="email" name="email" id="email" placeholder="Your email address" class="form-field details__form-field" required>
+                            </div>
+                            <div class="field">
+                                <label for="phone">Phone</label><br>
+                                <input type="tel" name="phone" id="phone" placeholder="Your phone" class="form-field details__form-field" required>
+                            </div>
+                        </div>
+                    </form> 
+                    <div class="btn book__btn">
+                        <button type="submit" class="btn__submit" form="booking-form">submit</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="spices container__spices" id="spices">
+                <img src="./images/spices/spices.jpg" alt="" class="spices-img spices-img__spices">
+            </div>
+
+            <div class="gallery-block" id="gallery-block">
+                <div class="gallery gallery-block__gallery container__fixed container__fixed_left-padding">
+                    <div class="title-block gallery__title-block">
+                        <h2 class="title title-block__title">Discover
+                        <span class="subtitle title-block__subtitle">our new menu</span></h2>
+                    </div>
+                    <div class="postes gallery__postes container__flex">
+                        <div class="post-section postes__post-section container__flex_vertical" data-post-num="1">
+                            <div class="post-img post-section__post-img">
+                                <img src="./images/gallery/1.jpg" alt="" class="post-img__img">
+                            </div>
+                            <div class="post post-section__post">
+                                <h3 class="name post__name">Food /<span class="name__date">16th March, 2019</span></h3>
+                                <div class="post-disc post__post-disc">
+                                    <h4 class="post-disc__heading">Lorem ipsum dolor sit</h4>
+                                    <div class="post-disc__text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p></div>
+                                </div>
+                                <a href="#" class="read-more-link">read more</a>
+                            </div>
+                        </div>
+                        <div class="post-section postes__post-section container__flex_vertical" data-post-num="2">
+                            <div class="post-img post-section__post-img">
+                                <img src="./images/gallery/2.jpg" alt="" class="post-img__img">
+                            </div>
+                            <div class="post post-section__post">
+                                <h3 class="name post__name">Spices /<span class="name__date">16th March, 2019</span></h3>
+                                <div class="post-disc post__post-disc">
+                                    <h4 class="post-disc__heading">Lorem ipsum dolor sit</h4>
+                                    <div class="post-disc__text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p></div>
+                                </div>
+                                <a href="#" class="read-more-link">read more</a>
+                            </div>
+                        </div>
+                        <div class="post-section postes__post-section container__flex_vertical" data-post-num="3">
+                            <div class="post-img post-section__post-img">
+                                <img src="./images/gallery/3.jpg" alt="" class="post-img__img">
+                            </div>
+                            <div class="post post-section__post">
+                                <h3 class="name post__name">Chicken curry /<span class="name__date">16th March, 2019</span></h3>
+                                <div class="post-disc post__post-disc">
+                                    <h4 class="post-disc__heading">Lorem ipsum dolor sit</h4>
+                                    <div class="post-disc__text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p></div>
+                                </div>
+                                <a href="#" class="read-more-link">read more</a>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="popup-block">
+                    <div class="popup">
+                        <div class="popup__post-section container__flex">
+                            <div class="popup__post-img">
+                                <img src="" alt="" class="popup__img">
+                            </div>
+                            <div class="popup__post">
+                                <h3 class="popup__name"></h3>
+                                <div class="popup__disc">
+                                    <h4 class="popup__heading"></h4>
+                                    <div class="popup__text"></div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a title="close" class="popup-close" href="#"></a>
+                </div>
+            </div>
+            <div class="contact-block container__contact-block container__fixed container__fixed_left-padding" id="contact-block">
+                <div class="contact contact-block__contact container__flex_vertical">
+                    <blockquote class="blockquote contact__blockquote">
+                        <p class="blockquote__quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+                        <cite class="blockquote__author">Linda Steward</cite>
+                    </blockquote>
+                    <ul class="socials contact__socials container__flex">
+                        <li class="socials__item"><a href="#" class="socials__link socials__link_fb"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="socials__item"><a href="#" class="socials__link socials__link_tw"><i class="fab fa-twitter"></i></a></li>
+                        <li class="socials__item"><a href="#" class="socials__link socials__link_in"><i class="fab fa-instagram"></i></a></li>
+                        <li class="socials__item"><a href="#" class="socials__link socials__link_pin"><i class="fab fa-pinterest-p"></i></a></li>
+                        <li class="socials__item"><a href="#" class="socials__link socials__link_g-p"><i class="fab fa-google-plus-g"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <footer class="footer-block container__footer-block" id="footer-block">
+                <div class="footer footer-block__footer container__fixed container__fixed_left-padding container__flex">
+                    <div class="summary footer__summary">
+                        <h5 class="summary__heading">About</h2>
+                        <p class="summary__text">Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididunt ultimam quantum</p>
+                    </div>
+                    <div class="about-us footer__about-us container__flex">
+                        <div class="about about-us__about container__flex_vertical">
+                            <h5 class="about__heading">About</h5>
+                            <ul class="about-list about__about-list container__flex_vertical">
+                                <li class="about-list__item"><a href="#" class="about-list__link about-list__link_bolt">Team</a></li>
+                                <li class="about-list__item"><a href="#" class="about-list__link about-list__link_bolt">Join us</a></li>
+                                <li class="about-list__item"><a href="#" class="about-list__link about-list__link_bolt">Ethic</a></li>
+                                <li class="about-list__item"><a href="#" class="about-list__link about-list__link_bolt">Goals</a></li>
+                            </ul>
+                        </div>
+                        <div class="about about-us__about container__flex_vertical">
+                            <h5 class="about__heading">About</h5>
+                            <ul class="about-list about__about-list container__flex_vertical">
+                                <li class="about-list__item"><a href="#" class="about-list__link about-list__link_bolt">Team</a></li>
+                                <li class="about-list__item"><a href="#" class="about-list__link about-list__link_bolt">Join us</a></li>
+                                <li class="about-list__item"><a href="#" class="about-list__link about-list__link_bolt">Ethic</a></li>
+                                <li class="about-list__item"><a href="#" class="about-list__link about-list__link_bolt">Goals</a></li>
+                            </ul>
+                        </div>
+                        <div class="about about-us__about container__flex_vertical">
+                            <h5 class="about__heading">About</h5>
+                            <ul class="about-list about__about-list container__flex_vertical">
+                                <li class="about-list__item"><a href="#" class="about-list__link">Team</a></li>
+                                <li class="about-list__item"><a href="#" class="about-list__link">Join us</a></li>
+                                <li class="about-list__item"><a href="#" class="about-list__link">Ethic</a></li>
+                                <li class="about-list__item"><a href="#" class="about-list__link">Goals</a></li>
+                            </ul>
+                        </div>
+                    </div>    
+                </div> 
+            </footer>
+        </div>
+        <div class="popup__overlay" id="popup-overlay"></div>
+        <script src="scripts/jquery-3.5.1.min.js"></script>
+		<script src="scripts/slider.js"></script>
+        <script src="scripts/read-more.js"></script>
+        <script src="scripts/booking-form.js"></script>
+    </body>
+</html>
