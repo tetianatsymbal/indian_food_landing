@@ -1,1 +1,1 @@
-https://tetianatsymbal.github.io/indian_food_landing/index.html
+https://tetianatsymbal.github.io/indian_food_landing/
